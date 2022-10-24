@@ -31,15 +31,15 @@
 
 .nav{
   list-style-type: none;
-  padding: 20px;
-  margin: 5px;
+  padding: 5px;
+  margin: 20px;
   cursor: pointer; 
 }
 
 
 .nav:hover{
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0px;
   transition: all ease-in-out .2s;
 }
 
