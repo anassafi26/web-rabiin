@@ -1,5 +1,6 @@
-
-*, html, body {
+*,
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,45 +10,46 @@
   height: 100vh;
 } */
 
- .container{
+.container {
   width: 100%;
   height: 100%;
   padding-bottom: 0px;
   padding-top: 0%;
 }
 
-.wrapper{
+.wrapper {
   width: 100%;
   height: 80px;
   background-color: black;
 }
 
-.navigation{
+.navigation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 100%;
+  justify-content: center;
 }
 
-.nav{
+.nav {
   list-style-type: none;
   padding: 5px;
   margin: 20px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 
-.nav:hover{
+.nav:hover {
   background-color: white;
   border-radius: 0px;
   transition: all ease-in-out .2s;
 }
 
-.nav:hover > a {
+.nav:hover>a {
   color: black;
 }
 
-.navlink{
+.navlink {
   color: white;
   font-size: 1.2m;
   font-weight: 600;
