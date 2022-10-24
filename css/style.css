@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+    background: white;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+}
+
+.card-image{
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.wrapper .packwrapper .pack .order:hover{
+  color: white;
+  background-color: black !important;
+}
