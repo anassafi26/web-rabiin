@@ -30,3 +30,11 @@ body{
   color: white;
   background-color: black !important;
 }
+
+.gambar{
+  width: 30%;
+  float: left;
+  margin-left: 150px;
+  margin-right: 60px;
+  
+}
