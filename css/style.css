@@ -13,7 +13,7 @@ body{
   justify-content: center;
 }
 
-.card{
+/* .card{
   background: white;
   width: 270px;
   height: 400px;
@@ -24,17 +24,23 @@ body{
   background-color: aqua;
   height: 150px;
   margin-bottom: 15px;
-}
+} */
 
-.wrapper .packwrapper .pack .order:hover{
+/* .wrapper .packwrapper .pack .order:hover{
   color: white;
   background-color: black !important;
-}
+  margin-bottom: 10%;
+} */
 
 .gambar{
   width: 30%;
   float: left;
   margin-left: 150px;
   margin-right: 60px;
-  
+  margin-bottom: 10px;
 }
+
+/* .tim{
+  display: flex;
+  margin-bottom: 10px;
+ */

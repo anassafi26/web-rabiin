@@ -1,0 +1,25 @@
+.tim img{
+  width: 25%;
+  box-shadow: 0px -10px 30px #ccc;
+  border-radius: 5px;
+}
+
+.tim{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.tim h6{
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+img{
+  margin-bottom: 10px;
+}
