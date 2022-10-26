@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Profile Start */
+#profile{
+  margin-bottom: 10px;
+}
+
+#profile .wrapper{
+  margin: 0%;
+  position: relative;
+}
+
+#profile .wrapper .bg-photo{
+  display: block;
+  width: 100%;
+  height: 10%;
+  object-fit: cover;
+  background-color: black;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+.bg-text{
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.text-title .title, .slogan{
+  text-align: center;
+  background-color: aquamarine;
+}
+
+/* Profile End */
+
+/* Tagline Start */
+#tagline .wrapper{
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+/* Tagline End */
+
+/* Content Start */
+#content .deskripsi{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px;
+}
+
+#content .deskripsi > div{
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#content .deskripsi .images{
+  border-radius: 10px;
+  width: 25%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#content.deskripsi .detail{
+  width: 50%;
+  text-align: center;
+}
+/* Content End */
+
+/* Package Start */
+#package .wrapper{
+  display: flex;
+  gap: 10px;
+}
+
+#package .wrapper .kolom{
+  width: 25%;
+  margin: 15px;
+}
+
+#package .photo{
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#package .card{
+  overflow: hidden;
+  background-color: blanchedalmond;
+  border: 1px solid #000;
+  border-radius: 20px;
+  gap: 5px;
+  border: none;
+  box-shadow: 5px 2px #B2B2B2;
+}
+
+#package .package-title{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#package .title{
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+#package h3{
+  margin-bottom: 10px;
+}
+
+#package .deskripsi{
+  text-align: center;
+  font-style: normal;
+}
+
+#package .btn{
+  background-color: aqua;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px blueviolet;
+  margin-bottom: 10px;
+}
+/* Package End */
+
+/* Contact Start */
+
+#contact .wrapper{
+margin: 0%;
+position: relative;
+}
+
+#contact .photo{
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: black;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contact .gradient{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom:0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to top, #FFF9B0, rgba(255, 0, 0, 0));
+}
+
+#contact .text{
+  font-size: 100%;
+  color: black;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#contact .text:hover{
+  background-color: black;
+  color: white;
+}
+/* Contact End */
